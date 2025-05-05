@@ -1,0 +1,175 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lzyp.main">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lzyp.main.activity.LoginInvalidActivity"
+            android:theme="@style/dialog2" />
+        <activity
+            android:name="com.lzyp.main.activity.LoginActivity"
+            android:screenOrientation="portrait"
+           />
+        <activity
+            android:name="com.lzyp.main.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.UserHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.FollowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.FansActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.EditSexActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.EditNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.EditSignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MyImpressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MyCoinActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MyVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MyProfitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.CashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.LiveClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ModifyPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.FindPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.RecommendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ThreeDistributActivity"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="false"
+            />
+
+        <activity
+            android:name="com.lzyp.main.activity.ActivePubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MyActiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveVideoPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveVideoRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.CancelAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.CancelConditionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.RankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MallClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.MallSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.DailyTaskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveAllTopicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveChooseTopicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveTopicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ActiveSearchTopicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.LiveRecommendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.ChooseCountryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.AuthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.FamilyApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.LiveVoiceRoomListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.FamilyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.GoodsShareFriendActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.main.activity.LiveFollowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.main.activity.AllLiveClassActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.main.activity.TeenagerTipActivity"
+            android:theme="@style/dialog" />
+        <activity
+            android:name="com.lzyp.main.activity.TeenagerPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.main.activity.TeenagerModifyPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.main.activity.TeenagerActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>

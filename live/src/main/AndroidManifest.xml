@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lzyp.live">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lzyp.live.activity.LiveAnchorActivity"
+            android:configChanges="screenLayout|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveAudienceActivity"
+            android:configChanges="screenLayout|orientation|screenSize|keyboard|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveChooseClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveAddImpressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveContributeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveGuardListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveRecordPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.RoomManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.RoomManageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveAdminListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveShutUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveBlackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LiveGoodsAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.floatwindow.FloatPermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.LuckPanRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.live.activity.UserHomeBgActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.lzyp.live.activity.ScreenRecordService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+        <activity
+            android:name="com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    </application>
+
+</manifest>

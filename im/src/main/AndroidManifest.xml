@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.lzyp.im">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity
+            android:name="com.lzyp.im.activity.ChatActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ImMsgNotifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name="com.lzyp.im.activity.SystemMessageActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ChatRoomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.LocationActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ChatChooseImageActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ImMsgAtActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ImMsgLikeActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ImMsgCommentActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lzyp.im.activity.ImMsgConcatActivity"
+            android:screenOrientation="portrait"
+            />
+
+    </application>
+</manifest>

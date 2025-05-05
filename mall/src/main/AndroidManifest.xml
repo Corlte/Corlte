@@ -1,0 +1,178 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lzyp.mall">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.ShopApplyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.ManageClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.ShopApplyBondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.ShopApplyResultActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.SellerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.ChooseGoodsClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerAddGoodsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.SellerManageGoodsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsOutSideDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsEditSpecActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.ShopDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.ShopCertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerAddressEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerAddressActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerAddressEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.lzyp.mall.activity.ShopHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsRecordActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsMakeOrderActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerOrderActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.SellerOrderActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.SellerSendActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerCommentActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerCommentAppendActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerRefundApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerRefundDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerRefundDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerRejectRefundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerRefundOfficialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsCommentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.BuyerCashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerCashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.PayContentActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.PayContentActivity2"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lzyp.mall.activity.PayContentPubActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.PayContentClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.PayContentDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.OrderMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsAddOutSideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.GoodsCollectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SetManageClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lzyp.mall.activity.SellerAddPlatActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
